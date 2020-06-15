@@ -32,5 +32,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {
+    "gh-pages": "^3.0.0"
+  },
+  "deploy": "npm run build&&gh-pages -d build"
 }
